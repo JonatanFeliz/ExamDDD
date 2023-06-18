@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ExamDDD.Infrastructure.Repository
+namespace rgessdfvdfvvedrfs
 {
     public class Class1
     {
