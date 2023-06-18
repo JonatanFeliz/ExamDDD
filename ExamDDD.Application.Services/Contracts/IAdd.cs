@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ExamDDD.Domain.Entities
+namespace ExamDDD.Application.Services.Contracts
 {
-    public class Class1
+    public interface IAdd
     {
     }
 }

@@ -1,0 +1,3 @@
+﻿<%@ ServiceHost Language="C#" Debug="true"
+    Service="ExamDDD.Distributed.WebServices.Contracts.IStudentWebService, ExamDDD.Distributed.WebServices"
+    Factory="Autofac.Integration.Wcf.AutofacServiceHostFactory, Autofac.Integration.Wcf" %>
