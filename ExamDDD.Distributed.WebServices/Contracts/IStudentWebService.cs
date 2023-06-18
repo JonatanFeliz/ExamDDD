@@ -13,7 +13,8 @@ namespace ExamDDD.Distributed.WebServices
     [ServiceContract]
     public interface IStudentWebService
     {
-
+        [OperationContract]
+        Student AddStudent(int id, string name, string surname, string DNI);
         // TODO: agregue aquí sus operaciones de servicio
     }
 

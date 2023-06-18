@@ -17,5 +17,10 @@ namespace ExamDDD.Domain.Entities
         public string Surname { get; set; }
         [DataMember]
         public string DNI { get; set; }
+
+        public override string ToString()
+        {
+            return $"Id:{Id},Name:{Name},Surname:{Surname},DNI:{DNI}";
+        }
     }
 }

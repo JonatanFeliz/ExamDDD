@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ExamDDD.Domain.Entities;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,5 +9,6 @@ namespace ExamDDD.Infrastructure.Repository.Contracts
 {
     public interface IAdd
     {
+        Student Add(Student model);
     }
 }
